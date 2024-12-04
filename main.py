@@ -6,6 +6,7 @@ from load import load_documents
 
 
 def main():
+    """Runs the search engine."""
     index = Index()
     for document in load_documents():
         index.index_document(document)

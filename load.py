@@ -7,6 +7,7 @@ from documents import Document
 
 
 def load_documents():
+    """Load Wikipedia abstracts from XML file."""
     print("Parsing XML...")
     start = time.time()
 
